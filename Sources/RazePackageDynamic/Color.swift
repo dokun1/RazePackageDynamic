@@ -29,8 +29,8 @@
 import Foundation
 import UIKit
 
-extension RazePackageDynamic {
-  public class Color {
+public extension RazePackageDynamic {
+  class Color {
     /// Creates a `UIColor` instance from a hex string.
     /// - Parameter hexString: `String` in hexadecimal format, must be 6 characters in length.
     /// - Parameter alpha: can often be referred to with two more hexadecimal characters, is instead passed in as a `CGFloat`. `1.0` indicates no transparency, `0.0` indicates full transparency.

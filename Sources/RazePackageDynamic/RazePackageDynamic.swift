@@ -1,3 +1,3 @@
-struct RazePackageDynamic {
+public struct RazePackageDynamic {
     var text = "Hello, World!"
 }
